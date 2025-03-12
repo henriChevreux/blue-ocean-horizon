@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { DropletIcon, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
@@ -12,7 +12,11 @@ const NavBar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <DropletIcon className="h-8 w-8 text-ocean" />
+              <img 
+                src="/lovable-uploads/4118a2d9-6403-4597-9f28-2d516c47ed8f.png" 
+                alt="BlueTomorrow Logo" 
+                className="h-10 w-auto" 
+              />
               <span className="text-xl font-bold text-white">BlueTomorrow</span>
             </Link>
           </div>
