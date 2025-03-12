@@ -4,11 +4,11 @@ import { Mail, Send, User, Users } from 'lucide-react';
 
 const Join = () => {
   return (
-    <div className="min-h-screen bg-ocean-dark text-white pt-16">
+    <div className="min-h-screen bg-ocean-dark text-white">
       <NavBar />
       
       {/* Hero Section */}
-      <section className="relative py-20 px-4">
+      <section className="relative pt-32 pb-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Join Our Mission</h1>
           <p className="text-xl text-ocean-light mb-10 max-w-2xl mx-auto">
